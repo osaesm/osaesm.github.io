@@ -7,9 +7,9 @@ class Home extends Component {
         <header className="Home-header">
           <h1 className="Home-title">This site is a WIP</h1>
         </header>
-        <p className="Home-intro">
+        <div className="Home-intro">
         I've decided to entirely redo this website so this is a placeholder.
-        </p>
+        </div>
       </div>
     );
   }

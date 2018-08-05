@@ -1,0 +1,21 @@
+.body {
+  width: 100%;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  /* color: blue; */
+}
+
+.nav-bar {
+  float: right;
+}
+
+.link {
+  float: left;
+  margin: 1em;
+}

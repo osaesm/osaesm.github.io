@@ -2,20 +2,14 @@
   width: 100%;
 }
 
-a {
-  color: blue;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-  /* color: blue; */
-}
-
 .nav-bar {
   float: right;
 }
 
 .link {
+  background-color: white;
+  border-radius: .2em;
+  border: none;
   float: left;
-  margin: 1em;
+  margin: 0.1em;
 }

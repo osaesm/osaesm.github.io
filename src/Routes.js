@@ -10,15 +10,15 @@ class Routes extends Component {
       <Router>
         <div>
           <div className='nav-bar'>
-            <div className='link'>
+            <button className='link'>
               <Link to='/'>Home</Link>
-            </div>
-            <div className='link'>
+            </button>
+            <button className='link'>
               <a target='_blank' without rel="noopener noreferrer" href='https://docs.google.com/viewer?url=https://github.com/osaesm/osaesm.github.io/raw/master/Resume.pdf'>Resume</a>
-            </div>
-            <div className='link'>
+            </button>
+            <button className='link'>
               <Link to='/contact-me'>Contact Me</Link>
-            </div>
+            </button>
           </div>
           <Route exact path='/' component={Home} />
           <Route path='/contact-me' component={ContactMe} />

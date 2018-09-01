@@ -1,10 +1,8 @@
-.Home {
+.center-everything {
   text-align: center;
 }
-
-.Home-logo {
-  animation: Home-logo-spin infinite 20s linear;
-  height: 80px;
+.Home {
+  text-align: center;
 }
 
 .Home-header {
@@ -22,7 +20,8 @@
   font-size: large;
 }
 
-@keyframes Home-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.circle-pic {
+  border-radius: 50%;
+  border: .05em solid;
+  border-color: black
 }

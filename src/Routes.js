@@ -1,25 +1,50 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './Routes.css'
 import Home from './Home'
 import ContactMe from './ContactMe'
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink
+} from 'reactstrap';
 
 class Routes extends Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
   render() {
     return (
       <Router>
         <div>
-          <div className='nav-bar'>
-            <button className='link'>
-              <Link to='/'>Home</Link>
-            </button>
-            <button className='link'>
-              <a target='_blank' without rel="noopener noreferrer" href='https://docs.google.com/viewer?url=https://github.com/osaesm/osaesm.github.io/raw/master/Resume.pdf'>Resume</a>
-            </button>
-            <button className='link'>
-              <Link to='/contact-me'>Contact Me</Link>
-            </button>
-          </div>
+          <Navbar color="dark" dark expand="md">
+            <NavbarBrand href="/">Osama Esmail</NavbarBrand>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <Nav className="ml-auto" navbar>
+                <NavItem>
+                  <NavLink target='_blank' without rel="noopener noreferrer" href='https://docs.google.com/viewer?url=https://github.com/osaesm/osaesm.github.io/raw/master/Resume.pdf'>Resume</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="contact-me">Contact Me</NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </Navbar>
           <Route exact path='/' component={Home} />
           <Route path='/contact-me' component={ContactMe} />
         </div>

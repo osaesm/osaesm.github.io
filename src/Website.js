@@ -9,17 +9,19 @@ class Website extends Component {
     const mailingAddress = '410 E Green St, Apt 514, Champaign, IL 61820'
     return (
       <div>
-        <Routes />
+        <div className='body'>
+          <Routes />
+        </div>
         <div className='footer'>
           {/* <hr classname='horizontal-break' /> */}
-          <p>
-            Email: <a href={`mailto:${email}`}>{email}</a> | 
-            Phone: <a href='tel:+18478341796'>{phoneNumber}</a> | 
+          <p className='first-line'>
+            Email: <a href={`mailto:${email}`}>{email}</a> |
+            Phone: <a href='tel:+18478341796'>{phoneNumber}</a> |
             Mailing Address: <a href='https://goo.gl/maps/9orw4vZDeFx' target='_blank' rel="noopener noreferrer" >{mailingAddress}</a>
           </p>
           <p>
-            LinkedIn: <a href={'https://www.linkedin.com/in/osamabinesmail/'}>/in/osamabinesmail</a> |
-            GitHub: <a href={'http://github.com/osaesm'}>/osaesm</a>
+            LinkedIn: <a href={'https://www.linkedin.com/in/osamabinesmail/'} target='_blank' rel="noopener noreferrer" >/in/osamabinesmail</a> |
+            GitHub: <a href={'http://github.com/osaesm'} target='_blank' rel="noopener noreferrer" >/osaesm</a>
           </p>
         </div>
       </div>

@@ -21,6 +21,9 @@ class Home extends Component {
           <div className="lead">
             Among my other interests are practically any professional sports, building various objects, and gaming.
           </div>
+          <div className="lead">
+            This website is somewhat a WIP, so there will be some changes and things moved around.
+          </div>
         </Container>
       </Jumbotron>
     );

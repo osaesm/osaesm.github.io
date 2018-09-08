@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './Routes.css'
 import Home from './Home'
-import ContactMe from './ContactMe'
+import Projects from './Projects'
 import {
   Collapse,
   Navbar,
@@ -40,13 +40,13 @@ class Routes extends Component {
                   <NavLink target='_blank' without rel="noopener noreferrer" href='https://docs.google.com/viewer?url=https://github.com/osaesm/osaesm.github.io/raw/master/Resume.pdf'>Resume</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="contact-me">Contact Me</NavLink>
+                  <NavLink href="projects">Projects</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
           </Navbar>
           <Route exact path='/' component={Home} />
-          <Route path='/contact-me' component={ContactMe} />
+          <Route path='/projects' component={Projects} />
         </div>
       </Router>
     );

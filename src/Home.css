@@ -7,3 +7,8 @@
   border: .05em solid;
   border-color: black
 }
+
+.caption {
+  margin-top: 0.5em;
+  margin-bottom: -0.5em;
+}

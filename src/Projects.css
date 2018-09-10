@@ -1,0 +1,13 @@
+.card {
+  margin: 1em;
+  display: flex;
+  float: left;
+  max-width: 25%;
+}
+
+.card-collection {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%; 
+}

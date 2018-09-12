@@ -12,27 +12,27 @@ class Projects extends Component {
         <Card className='leftmost'>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Card title</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+            <CardTitle>Placeholder 1</CardTitle>
+            <CardSubtitle>Adding projects soon</CardSubtitle>
+            <CardText>Yep</CardText>
             <Button>Button</Button>
           </CardBody>
         </Card>
         <Card>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Card title</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <CardTitle>Placeholder 2</CardTitle>
+            <CardSubtitle>Adding projects soon</CardSubtitle>
+            <CardText>Yep</CardText>
             <Button>Button</Button>
           </CardBody>
         </Card>
         <Card className='rightmost'>
           <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
           <CardBody>
-            <CardTitle>Card title</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <CardTitle>Placeholder 3</CardTitle>
+            <CardSubtitle>Adding projects soon</CardSubtitle>
+            <CardText>Yep</CardText>
             <Button>Button</Button>
           </CardBody>
         </Card>

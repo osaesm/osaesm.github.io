@@ -15,7 +15,7 @@ class Projects extends Component {
             <CardTitle>Placeholder 1</CardTitle>
             <CardSubtitle>Adding projects soon</CardSubtitle>
             <CardText>Yep</CardText>
-            <Button>Button</Button>
+            <Button target='_blank' href='https://github.com/osaesm/osaesm.github.io'>Repository</Button>
           </CardBody>
         </Card>
         <Card>
@@ -24,7 +24,7 @@ class Projects extends Component {
           <CardTitle>Placeholder 2</CardTitle>
             <CardSubtitle>Adding projects soon</CardSubtitle>
             <CardText>Yep</CardText>
-            <Button>Button</Button>
+            <Button target='_blank' href='https://github.com/osaesm/MeetupMarker'>Repository</Button>
           </CardBody>
         </Card>
         <Card className='rightmost'>
@@ -33,7 +33,7 @@ class Projects extends Component {
           <CardTitle>Placeholder 3</CardTitle>
             <CardSubtitle>Adding projects soon</CardSubtitle>
             <CardText>Yep</CardText>
-            <Button>Button</Button>
+            <Button>Repository coming soon</Button>
           </CardBody>
         </Card>
       </div>

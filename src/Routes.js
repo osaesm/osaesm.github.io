@@ -37,7 +37,7 @@ class Routes extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink target='_blank' without rel="noopener noreferrer" href='https://github.com/osaesm/osaesm.github.io/raw/master/Resume.pdf'>Resume</NavLink>
+                  <NavLink href='https://github.com/osaesm/osaesm.github.io/raw/master/Resume.pdf'>Resume</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="projects">Projects</NavLink>

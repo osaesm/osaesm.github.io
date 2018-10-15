@@ -12,3 +12,16 @@
   float: left;
   margin-top: 5%; 
 }
+
+@media (max-width: 50em) {
+  .card {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .card-collection {
+    width: 100%;
+    display: block;
+    margin-top: 5%; 
+  }
+}

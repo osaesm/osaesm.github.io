@@ -10,7 +10,6 @@ class Home extends Component {
           <h1 className="display-3">Osama Esmail</h1>
           <figure>
             <img className='circle-pic' alt='Pic of me should have loaded' src='https://github.com/osaesm/osaesm.github.io/raw/master/Me.jpg' />
-            <figcaption className='caption'>I look more happy in person (I just don't smile for cameras)</figcaption>
           </figure>
           <div className="lead">
             I'm a senior at the University of Illinois at Urbana-Champaign studying computer science.
@@ -19,10 +18,10 @@ class Home extends Component {
             I also study math as a second major and pursue whatever new technologies are interesting.
           </div>
           <div className="lead">
-            Among my other interests are practically any professional sports, building various objects, and gaming.
+          I also enjoy following professional sports (especially NBA, NFL, and MLB), building various objects (custom PC, wood table), and gaming (lately big on WatchDogs).
           </div>
           <div className="lead">
-            This website is somewhat a WIP, so there will be some changes and things moved around.
+            This website is somewhat a WIP, so there will be some changes and things moved around. Welcome to my personal website!
           </div>
         </Container>
       </Jumbotron>

@@ -13,10 +13,10 @@ class Home extends Component {
             <figcaption className='caption'>I look more happy in person (I just don't smile for cameras)</figcaption>
           </figure>
           <div className="lead">
-            I'm a sophomore at the University of Illinois at Urbana-Champaign studying computer science.
+            I'm a senior at the University of Illinois at Urbana-Champaign studying computer science.
           </div>
           <div className="lead">
-            I also study math as a probable second major and pursue whatever new technologies are interesting.
+            I also study math as a second major and pursue whatever new technologies are interesting.
           </div>
           <div className="lead">
             Among my other interests are practically any professional sports, building various objects, and gaming.

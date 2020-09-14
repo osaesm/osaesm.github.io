@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import './Routes.css'
 import Home from './Home'
 import Projects from './Projects'
@@ -40,7 +40,7 @@ class Routes extends Component {
                   <NavLink href='Resume.pdf'>Resume</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href='/projects'>Projects</NavLink>
+                  <NavLink href='#/projects/'>Projects</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

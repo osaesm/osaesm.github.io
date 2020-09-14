@@ -16,7 +16,7 @@ class Home extends Component {
             I'm a senior at the University of Illinois at Urbana-Champaign studying computer science.
           </div>
           <div className="lead">
-            I also study math as a second major and pursue whatever new technologies are interesting.
+            I also study math as a second major and keep tabs on new, interesting technologies.
           </div>
           <div className="lead">
           I also enjoy following professional sports (especially NBA, NFL, and MLB), building various objects (custom PC, wood table), and gaming (lately big on WatchDogs).

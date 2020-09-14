@@ -38,10 +38,9 @@ class Routes extends Component {
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   <NavLink href='Resume.pdf'>Resume</NavLink>
-                  {/* <NavLink href='https://github.com/osaesm/osaesm.github.io/raw/master/Resume.pdf'>Resume</NavLink> */}
                 </NavItem>
                 <NavItem>
-                  <NavLink href="projects">Projects</NavLink>
+                  <NavLink href='/projects'>Projects</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

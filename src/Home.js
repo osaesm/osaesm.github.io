@@ -9,7 +9,8 @@ class Home extends Component {
         <Container fluid className='center-everything'>
           <h1 className="display-3">Osama Esmail</h1>
           <figure>
-            <img className='circle-pic' alt='Pic of me should have loaded' src='https://github.com/osaesm/osaesm.github.io/raw/master/Me.jpg' />
+            <img className='circle-pic' alt='Pic of me should have loaded' src='Me.jpg' />
+            {/* <img className='circle-pic' alt='Pic of me should have loaded' src='https://github.com/osaesm/osaesm.github.io/raw/master/Me.jpg' /> */}
           </figure>
           <div className="lead">
             I'm a senior at the University of Illinois at Urbana-Champaign studying computer science.

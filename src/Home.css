@@ -3,6 +3,8 @@
 }
 
 .circle-pic {
+  max-width: 90%;
+  height:auto;
   border-radius: 50%;
   border: .05em solid;
   border-color: black

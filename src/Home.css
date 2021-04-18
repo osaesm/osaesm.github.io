@@ -3,7 +3,7 @@
 }
 
 .circle-pic {
-  max-width: 90%;
+  max-width: calc(min(90%, 20em));
   height:auto;
   border-radius: 50%;
   border: .05em solid;

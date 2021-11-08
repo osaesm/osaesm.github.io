@@ -6,7 +6,7 @@ class Website extends Component {
   render() {
     const email = 'osamabinesmail@gmail.com'
     const phoneNumber = '(847) 834-1796'
-    const mailingAddress = '410 E Green St, Apt 514, Champaign, IL 61820'
+    const mailingAddress = '123 10th Ave E, Apt 301, Seattle, WA 98102'
     return (
       <div>
         <div className='body'>
@@ -16,7 +16,7 @@ class Website extends Component {
           <div className='first-line'>
             <strong>Email: </strong><a href={`mailto:${email}`}>{email}</a>
             <strong> | Phone: </strong><a href='tel:+18478341796'>{phoneNumber}</a>
-            <strong> | Mailing Address: </strong><a href='https://goo.gl/maps/9orw4vZDeFx' target='_blank' rel="noopener noreferrer" >{mailingAddress}</a>
+            <strong> | Mailing Address: </strong><a href='https://goo.gl/maps/CFqAmp8ut2wKKyS69' target='_blank' rel="noopener noreferrer" >{mailingAddress}</a>
           </div>
           <div className='second-line'>
             <strong>LinkedIn: </strong><a href={'https://www.linkedin.com/in/osamabinesmail/'} target='_blank' rel="noopener noreferrer" >/in/osamabinesmail</a>

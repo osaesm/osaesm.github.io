@@ -12,16 +12,16 @@ class Home extends Component {
             <img className='circle-pic' alt='Me in front of a blossoming tree' src='Me.jpg' />
           </figure>
           <div className="lead">
-            I'm a senior at the University of Illinois at Urbana-Champaign studying computer science.
+            I'm a software development engineer at InnoPeak Technology, working on C++ and Android development.
           </div>
           <div className="lead">
-            I also study math as a second major and keep tabs on new, interesting technologies.
+            I also enjoy working on data and web driven side projects, and they keep me up to date.
           </div>
           <div className="lead">
-            I also enjoy following professional sports (especially NBA, NFL, and MLB), building various objects (custom PC, wood table), and gaming (lately big on The Witcher 3).
+            I also enjoy following professional sports (especially NBA, NFL, and MLB), building various objects (custom PC, wood table), and gaming (lately big on Civilzation 5).
           </div>
           <div className="lead">
-            This website is somewhat a WIP, so there will be some changes and things moved around. Welcome to my personal website!
+            This website is a perpetual WIP, so there will be some changes and things moved around. Welcome to my personal website!
           </div>
         </Container>
       </Jumbotron>

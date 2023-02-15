@@ -12,13 +12,13 @@ class Home extends Component {
             <img className='circle-pic' alt='Me in front of a blossoming tree' src='Me.jpg' />
           </figure>
           <div className="lead">
-            I'm a software development engineer at InnoPeak Technology, working on C++ and Android development.
+            I'm a software development engineer at Microsoft working on CBL-Mariner, the Azure-focused Linux Distribution developed in-house.
           </div>
           <div className="lead">
             I also enjoy working on data and web driven side projects, and they keep me up to date.
           </div>
           <div className="lead">
-            I also enjoy following professional sports (especially NBA, NFL, and MLB), building various objects (custom PC, wood table), and gaming (lately big on Civilzation 5).
+            I also enjoy following professional sports (especially NBA, NFL, and MLB), bargain hunting for new hobbies (like ice cream making!), and gaming (lately big on Horizon Zero Dawn).
           </div>
           <div className="lead">
             This website is a perpetual WIP, so there will be some changes and things moved around. Welcome to my personal website!

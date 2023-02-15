@@ -10,10 +10,10 @@ class Projects extends Component {
     return (
       <div className='card-collection'>
         <Card className='leftmost'>
-          <CardImg top width="100%" src="coinbase_pro_logo.png" alt="Coinbase Pro Logo" />
+          <CardImg top width="100%" src="nba_logo.png" alt="NBA Logo" />
           <CardBody>
-            <CardTitle>Crypto Bot</CardTitle>
-            <CardSubtitle>Simple Trading Bot built on Coinbase Pro API.</CardSubtitle>
+            <CardTitle>NBA Betting Bot</CardTitle>
+            <CardSubtitle>Developed a custom heuristic for calculating win probability & expected returns on NBA moneyline bets. </CardSubtitle>
             <CardText>Written in Python 3.</CardText>
             <Button>Repository is private due to profit</Button>
           </CardBody>
@@ -21,7 +21,7 @@ class Projects extends Component {
         <Card>
           <CardImg top width="100%" src="OE.ico" alt="Card image cap" />
           <CardBody>
-          <CardTitle>This website</CardTitle>
+            <CardTitle>This website</CardTitle>
             <CardSubtitle>Written in ReactJS</CardSubtitle>
             <Button target='_blank' href='https://github.com/osaesm/osaesm.github.io'>Repository</Button>
           </CardBody>

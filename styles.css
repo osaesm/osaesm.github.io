@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    vertical-align:middle;
+}
+
+nav.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    padding: 50px 0;
+}
+
+#home img {
+    width: 75%;
+    max-width: 500px;
+}
+
+#projects {
+    padding: 50px 0;
+}
+
+#contact {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
